@@ -22,9 +22,6 @@ export default function TrainingPage() {
         {/* Authentic Ving Tsun & Executive Combatives Hero */}
         <TrainingHero onScheduleClick={() => setModalOpen(true)} />
 
-        {/* Precision Geometry Over Brute Strength & Direct Lineage Tree */}
-        <PrecisionGeometryLineage />
-
         {/* 2-Tab Interactive Lineage & System Geometry Showcase */}
         <TrainingLineageTabs />
 
@@ -33,6 +30,9 @@ export default function TrainingPage() {
 
         {/* Direct Training Inquiry & Registration Form */}
         <DirectTrainingInquiryForm />
+
+        {/* Precision Geometry Over Brute Strength & Direct Lineage Tree */}
+        <PrecisionGeometryLineage />
       </main>
 
       <Footer />

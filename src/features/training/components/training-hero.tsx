@@ -35,9 +35,9 @@ export function TrainingHero({ onScheduleClick }: TrainingHeroProps) {
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
           {/* Background Image */}
           <img
-            src="/images/founder-command.png"
+            src="/images/h.jpeg"
             alt="Sifu Gerald Hazellief - Ving Tsun & Tactical Combatives"
-            className="w-full h-full object-cover object-center filter contrast-125 brightness-45 sm:brightness-50 scale-105 transition-transform duration-1000 ease-out"
+            className="w-full h-full object-fill object-[center_10%] filter transition-transform duration-1000 ease-out"
           />
 
           {/* Dark Radial & Gradient Vignettes */}
@@ -54,7 +54,7 @@ export function TrainingHero({ onScheduleClick }: TrainingHeroProps) {
           {/* Main Display Headline */}
           <h1
             className={cn(
-              "text-4xl sm:text-6xl md:text-7xl lg:text-[5.4rem] font-black uppercase text-white font-sans tracking-tight leading-[1.02] sm:leading-[1.05] drop-shadow-[0_8px_32px_rgba(0,0,0,0.98)] transition-all duration-800 ease-out transform",
+              "text-4xl sm:text-6xl md:text-7xl lg:text-[5.2rem] font-black uppercase text-white font-sans tracking-tight leading-[1.02] sm:leading-[1.05] drop-shadow-[0_8px_32px_rgba(0,0,0,0.98)] transition-all duration-800 ease-out transform",
               isLoaded ? "opacity-100 translate-y-0 scale-100" : "opacity-0 translate-y-8 scale-[0.98]"
             )}
           >

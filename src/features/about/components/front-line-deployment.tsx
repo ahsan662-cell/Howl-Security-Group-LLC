@@ -96,13 +96,13 @@ export function FrontLineDeployment() {
               {/* Photo Area */}
               <div className="relative w-full h-[280px] sm:h-[340px] md:h-[380px] overflow-hidden bg-[#07090E]">
                 <img
-                  src="/images/operations/op-executive-detail.png"
+                  src="/images/travelprotection.webp"
                   alt="High-Profile Close Protection Vector"
-                  className="w-full h-full object-cover object-center filter grayscale contrast-115 brightness-95 group-hover:scale-105 transition-transform duration-700 ease-out"
+                  className="w-full h-full object-cover object-center filter  contrast-115 brightness-95 group-hover:scale-105 transition-transform duration-700 ease-out"
                 />
 
                 {/* Dark Vignette Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#090C12] via-[#090C12]/40 to-transparent pointer-events-none" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#090C12] via-[#090C12]/30 to-transparent pointer-events-none" />
 
                 {/* Bottom Overlay Telemetry Bar */}
                 <div className="absolute bottom-0 inset-x-0 p-4 sm:p-5 flex flex-col sm:flex-row sm:items-end justify-between gap-2 z-10">
@@ -134,11 +134,11 @@ export function FrontLineDeployment() {
 
                 <div className="relative w-full h-32 sm:h-44 md:h-48 overflow-hidden bg-[#07090E]">
                   <img
-                    src="/images/operations/op-escort-vehicle.png"
+                    src="/images/suv.jpeg"
                     alt="Tactical Escort Vehicle Formation"
                     className="w-full h-full object-cover object-center filter contrast-125 brightness-95 group-hover:scale-105 transition-transform duration-500 ease-out"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#090C12]/80 via-transparent to-transparent pointer-events-none" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#090C12]/30 via-transparent to-transparent pointer-events-none" />
                 </div>
               </div>
 
@@ -151,11 +151,11 @@ export function FrontLineDeployment() {
 
                 <div className="relative w-full h-32 sm:h-44 md:h-48 overflow-hidden bg-[#07090E]">
                   <img
-                    src="/images/operations/op-tactical-vest.png"
+                    src="/images/guard.webp"
                     alt="Tactical Rig and Radio Comms Suite"
-                    className="w-full h-full object-cover object-center filter contrast-125 brightness-95 group-hover:scale-105 transition-transform duration-500 ease-out"
+                    className="w-full h-full object-fill object-[center_10%]  brightness-95 group-hover:scale-105 transition-transform duration-500 ease-out"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#090C12]/80 via-transparent to-transparent pointer-events-none" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#090C12]/30 via-transparent to-transparent pointer-events-none" />
                 </div>
               </div>
 

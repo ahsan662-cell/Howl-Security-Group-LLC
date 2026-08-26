@@ -14,6 +14,7 @@ import {
 import { COMPANY_INFO } from "@/constants/company";
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
+import hero from "../../../public/images/Home2.webp"
 
 interface HeroProps {
   onRequestCoverage?: () => void;
@@ -159,17 +160,17 @@ export function Hero({ onRequestCoverage }: HeroProps) {
       {/* Background Founder Photographic Portrait & Responsive Framing */}
       <div className="absolute inset-0 z-0 select-none overflow-hidden flex items-center justify-center pointer-events-none">
         <img
-          src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=2000&auto=format&fit=crop"
+          src={hero.src}
           alt="Gerald Hazellief - Founder and US Army Ranger Veteran"
-          className="relative max-w-4xl lg:max-w-full mx-auto w-full h-full object-cover object-[center_30%] opacity-90 filter grayscale contrast-125 brightness-90 transform sm:scale-100 transition-all duration-1000"
+          className="relative max-w-4xl lg:max-w-full mx-auto w-full h-full object-cover object-[center_80%] opacity-90 filter contrast-125 brightness-90 transform sm:scale-100 transition-all duration-1000"
         />
 
         {/* Targeted Vignette Overlays */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#07090E] via-[#07090E]/60 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#07090E]/80 via-transparent to-[#07090E]/80" />
+        {/* <div className="absolute inset-0 bg-gradient-to-t from-[#07090E] via-[#07090E]/60 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#07090E]/80 via-transparent to-[#07090E]/80" /> */}
 
         {/* Global Dark Vignette */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_30%,#07090E_90%)] opacity-75" />
+        {/* <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_30%,#07090E_90%)] opacity-75" /> */}
       </div>
 
       {/* Vertical Tactical Watermark on the Right */}
@@ -179,10 +180,10 @@ export function Hero({ onRequestCoverage }: HeroProps) {
           isLoaded ? "opacity-20 translate-x-0" : "opacity-0 translate-x-8"
         )}
       >
-        <span className="font-mono text-3xl font-black tracking-[0.35em] text-zinc-400 uppercase whitespace-nowrap">
+        <span className="font-mono text-3xl font-black tracking-[0.35em] text-white uppercase whitespace-nowrap">
           HOWL DEFENSE
         </span>
-        <span className="font-mono text-[9px] tracking-[0.4em] text-zinc-500 uppercase mt-1 whitespace-nowrap">
+        <span className="font-mono text-[9px] tracking-[0.4em] text-zinc-100 uppercase mt-1 whitespace-nowrap">
           TACTICAL COMMAND CONSOLE V4.22
         </span>
       </div>
@@ -203,7 +204,7 @@ export function Hero({ onRequestCoverage }: HeroProps) {
         </div>
 
         {/* Main Display Headline */}
-        <h1 className="text-3xl relative z-10 sm:text-5xl md:text-6xl lg:text-7xl font-black font-sans uppercase tracking-tight text-white leading-[1.08] max-w-4xl mx-auto drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
+        <h1 className="text-3xl relative z-10 sm:text-5xl md:text-6xl lg:text-7xl font-black font-sans uppercase tracking-tight text-white leading-[1.08] max-w-5xl mx-auto drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
           <span
             className={cn(
               "block transition-all duration-700 delay-150 ease-out transform",

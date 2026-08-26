@@ -79,9 +79,9 @@ export function CommandingTheFront() {
               {/* Portrait Image Container */}
               <div className="relative w-full h-[380px] sm:h-[440px] lg:h-[480px] overflow-hidden bg-[#07090E]">
                 <img
-                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=2000&auto=format&fit=crop"
+                  src="/images/founder.jpeg"
                   alt="Gerald Hazellief - Founder & Principal Instructor"
-                  className="w-full h-full object-cover object-[center_12%] filter grayscale contrast-125 brightness-95 group-hover:scale-105 transition-transform duration-700 ease-out"
+                  className="w-full h-full object-fill object-top filter brightness-95 group-hover:scale-105 transition-transform duration-700 ease-out"
                 />
 
                 {/* Atmospheric Dark Bottom Overlay for Text Readability */}

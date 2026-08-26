@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { Shield } from "lucide-react";
+import { Logo } from "@/components/ui/logo";
 import { cn } from "@/lib/utils";
 
 export function Footer() {
@@ -61,20 +61,9 @@ export function Footer() {
           {/* Column 1: Brand, Identity & Narrative (Spans 4 cols on Desktop) */}
           <div className="sm:col-span-2 md:col-span-3 lg:col-span-4 space-y-4">
             {/* Brand Logo Header */}
-            <Link
-              href="/"
-              title="HOWL Security Group - Home"
-              aria-label="HOWL Security Group Homepage"
-              className="inline-flex items-center gap-2.5 group focus:outline-none focus:ring-2 focus:ring-amber-500 rounded"
-            >
-              <div className="p-1.5 rounded bg-[#10141F] border border-[#E58518]/60 text-[#E58518] shadow-[0_0_10px_rgba(229,133,24,0.2)] group-hover:border-amber-400 transition-colors">
-                <Shield className="h-5 w-5 fill-[#E58518]/20 stroke-[#E58518]" aria-hidden="true" />
-              </div>
-              <div className="font-sans font-black text-xl tracking-wider uppercase">
-                <span className="text-white">HOWL </span>
-                <span className="text-[#E58518]">SECURITY</span>
-              </div>
-            </Link>
+            <div>
+              <Logo size="lg" showTagline={true} />
+            </div>
 
             {/* Narrative Description */}
             <p className="text-xs sm:text-[13px] text-zinc-400 leading-relaxed max-w-sm font-sans pt-1">

@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 type TabKey = "system" | "master";
 
-export function TrainingLineageTabs() {
+export function   TrainingLineageTabs() {
   const [activeTab, setActiveTab] = useState<TabKey>("system");
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -99,9 +99,9 @@ export function TrainingLineageTabs() {
                   {/* Photo with Combatives Stance */}
                   <div className="relative w-full h-[320px] sm:h-[400px] md:h-[460px] overflow-hidden bg-[#07090E]">
                     <img
-                      src="/images/founder-command.png"
+                      src="/images/h.jpeg"
                       alt="Sifu Gerald Hazellief Ving Tsun Biomechanics and Structure"
-                      className="w-full h-full object-cover object-top filter contrast-125 brightness-95 group-hover:scale-105 transition-transform duration-700 ease-out"
+                      className="w-full h-full object-fill object-top filter contrast-125 brightness-95 group-hover:scale-105 transition-transform duration-700 ease-out"
                     />
                     
                     {/* Dark Bottom Overlay */}
@@ -181,9 +181,9 @@ export function TrainingLineageTabs() {
                   {/* Sifu Gerald Black Uniform Combatives Guard Stance */}
                   <div className="relative w-full h-[320px] sm:h-[400px] md:h-[460px] overflow-hidden bg-[#07090E]">
                     <img
-                      src="/images/founder-command.png"
+                      src="/images/Sifu.jpeg"
                       alt="Sifu Gerald Hazellief 30+ Years of Mastery"
-                      className="w-full h-full object-cover object-center filter contrast-125 brightness-95 group-hover:scale-105 transition-transform duration-700 ease-out"
+                      className="w-full h-full object-fill object-top filter contrast-125 brightness-95 group-hover:scale-105 transition-transform duration-700 ease-out"
                     />
                     
                     <div className="absolute inset-0 bg-gradient-to-t from-[#090C12] via-transparent to-transparent pointer-events-none" />

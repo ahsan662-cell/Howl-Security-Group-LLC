@@ -51,7 +51,7 @@ export function FounderBio() {
             <div className="relative w-full bg-[#090C12] border border-zinc-800/90 hover:border-amber-500/40 rounded-2xl p-2 sm:p-3 overflow-hidden shadow-2xl shadow-black/80 transition-all duration-500 group">
               <div className="relative w-full overflow-hidden rounded-xl bg-[#05070A] border border-zinc-800/60">
                 <img
-                  src="/images/founder-command.png"
+                  src="/images/homep2.jpeg"
                   alt="HOWL Security Group - Founder Gerald Hazellief and Tactical Command Shield"
                   className="w-full h-auto object-cover rounded-xl group-hover:scale-[1.02] transition-transform duration-700 ease-out"
                 />
