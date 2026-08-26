@@ -74,15 +74,7 @@ interface FormState {
   missionDetails: string;
 }
 
-interface FormErrors {
-  fullName?: string;
-  email?: string;
-  phone?: string;
-  operationType?: string;
-  siteLocation?: string;
-  timeframe?: string;
-  missionDetails?: string;
-}
+type FormErrors = Partial<Record<keyof FormState, string>>;
 
 export function AerialSurveillanceHero({
   onRequestSurvey,
