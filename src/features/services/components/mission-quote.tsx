@@ -58,11 +58,11 @@ export function MissionQuote() {
         {/* Main Quote Statement */}
         <blockquote
           className={cn(
-            "text-lg sm:text-2xl md:text-3xl lg:text-[34px] font-black uppercase text-white font-sans tracking-tight text-center leading-[1.32] max-w-4xl mx-auto drop-shadow-[0_4px_20px_rgba(0,0,0,0.9)] transition-all duration-1000 delay-150 ease-out transform",
+            "text-lg sm:text-2xl md:text-3xl lg:text-[32px] italic font-bold text-white font-sans tracking-tight text-center leading-[1.38] max-w-4xl mx-auto drop-shadow-[0_4px_20px_rgba(0,0,0,0.9)] transition-all duration-1000 delay-150 ease-out transform",
             isVisible ? "opacity-100 translate-y-0 scale-100" : "opacity-0 translate-y-8 scale-98"
           )}
         >
-          &ldquo;AT HOWL SECURITY GROUP, OUR MISSION IS TO PROVIDE DISCIPLINED, PROFESSIONAL, AND ADAPTIVE SECURITY SOLUTIONS... INSPIRED BY THE PSYCHOLOGY OF THE WOLF—WHETHER OPERATING WITH THE COORDINATED STRENGTH OF THE PACK OR THE FOCUSED PRECISION OF THE LONE WOLF—WE REMAIN VIGILANT, STRATEGIC, AND COMMITTED TO PROTECTING OUR CLIENTS.&rdquo;
+          &ldquo;Inspired by the psychology of the wolf — whether operating with the coordinated strength of the pack or the focused precision of the lone wolf — we remain vigilant, strategic, and committed to protecting our clients, assets, and communities with loyalty, integrity, and unwavering readiness.&rdquo;
         </blockquote>
 
         {/* Bottom Attribution Line */}

@@ -154,6 +154,20 @@ export function CommandingTheFront() {
               </p>
             </div>
 
+            {/* Wolf Psychology Statement Pull-Quote */}
+            <blockquote className="relative p-5 sm:p-6 my-6 rounded-xl bg-gradient-to-r from-amber-500/15 via-[#090C12] to-[#0A0D14] border-l-4 border-[#E58518] border-y border-r border-zinc-800/80 shadow-2xl shadow-black/80 overflow-hidden group">
+              <div className="absolute top-2 right-4 text-amber-500/15 text-6xl sm:text-7xl font-serif select-none pointer-events-none font-black leading-none">
+                “
+              </div>
+              <p className="text-sm sm:text-base md:text-lg italic font-medium text-zinc-100 leading-relaxed font-sans relative z-10">
+                &ldquo;Inspired by the psychology of the wolf — whether operating with the coordinated strength of the pack or the focused precision of the lone wolf — we remain vigilant, strategic, and committed to protecting our clients, assets, and communities with loyalty, integrity, and unwavering readiness.&rdquo;
+              </p>
+              <div className="mt-3.5 flex items-center gap-2.5 font-mono text-[10.5px] sm:text-xs font-bold uppercase tracking-wider text-[#E58518] relative z-10">
+                <span className="w-5 h-[1.5px] bg-[#E58518] rounded-full" />
+                <span>HOWL OPERATIONAL ETHOS</span>
+              </div>
+            </blockquote>
+
             {/* 3 Metric Summary Boxes */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
               

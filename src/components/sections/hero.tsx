@@ -238,7 +238,7 @@ export function Hero({ onRequestCoverage }: HeroProps) {
             isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           )}
         >
-          Special Operations leadership and martial arts mastery applied to executive protection, high-stakes event security, and commercial threat mitigation across South Florida.
+          Special Operations leadership and martial arts mastery applied to executive protection, residential security, high-stakes event security, and commercial threat mitigation across South Florida.
         </p>
 
         {/* Dual Call to Action Buttons */}

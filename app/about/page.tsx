@@ -5,6 +5,7 @@ import Script from "next/script";
 import { Header } from "@/components/navigation/header";
 import { Footer } from "@/components/navigation/footer";
 import { FrontLineDeployment } from "@/features/about/components/front-line-deployment";
+import { CommandingTheFront } from "@/features/services/components/commanding-the-front";
 import { OperationalStandard } from "@/features/about/components/operational-standard";
 import { CoverageMatrix } from "@/features/operations/components/coverage-matrix";
 import { ClassifiedBriefings } from "@/features/about/components/classified-briefings";
@@ -87,7 +88,10 @@ export default function AboutPage() {
         {/* 1. Front Line Deployment Operations Showcase */}
         <FrontLineDeployment />
 
-        {/* 2. Elite Force Doctrine: The HOWL Operational Standard */}
+        {/* 2. The Founder: Commanding The Front */}
+        <CommandingTheFront />
+
+        {/* 3. Elite Force Doctrine: The HOWL Operational Standard */}
         <OperationalStandard />
 
         {/* 3. Commercial & Residential Static Security Detail */}
