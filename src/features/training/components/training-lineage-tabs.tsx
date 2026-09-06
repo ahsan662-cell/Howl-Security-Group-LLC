@@ -99,7 +99,7 @@ export function   TrainingLineageTabs() {
                   {/* Photo with Combatives Stance */}
                   <div className="relative w-full h-[320px] sm:h-[400px] md:h-[460px] overflow-hidden bg-[#07090E]">
                     <img
-                      src="/images/h.jpeg"
+                      src="/images/sifu-stance.jpg"
                       alt="Sifu Gerald Hazellief Ving Tsun Biomechanics and Structure"
                       className="w-full h-full object-fill object-top filter contrast-125 brightness-95 group-hover:scale-105 transition-transform duration-700 ease-out"
                     />

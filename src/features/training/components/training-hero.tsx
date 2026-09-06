@@ -35,9 +35,9 @@ export function TrainingHero({ onScheduleClick }: TrainingHeroProps) {
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
           {/* Background Image */}
           <img
-            src="/images/h.jpeg"
+            src="/images/sifu-stance.jpg"
             alt="Sifu Gerald Hazellief - Ving Tsun & Tactical Combatives"
-            className="w-full h-full object-fill object-[center_10%] filter transition-transform duration-1000 ease-out"
+            className="w-full h-full object-cover object-top filter transition-transform duration-1000 ease-out"
           />
 
           {/* Dark Radial & Gradient Vignettes */}

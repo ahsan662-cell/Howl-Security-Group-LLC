@@ -7,7 +7,7 @@ export const MAIN_NAV_ITEMS: NavItem[] = [
   { label: "CONTACT", href: "/contact" },
   { label: "CAREERS", href: "/careers" },
   { label: "VTKF & SG", href: "/training" },
-  { label: "AERIAL RECON", href: "/aerial" },
+  // { label: "AERIAL RECON", href: "/aerial" },
 ];
 
 export const FOOTER_SECTIONS = [

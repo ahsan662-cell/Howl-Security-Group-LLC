@@ -169,34 +169,34 @@ export function CommandingTheFront() {
             </blockquote>
 
             {/* 3 Metric Summary Boxes */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
+            <div className="grid grid-cols-3 sm:grid-cols-3 gap-4 pt-2">
               
               {/* Metric 1 */}
-              <div className="p-4 sm:p-5 rounded-xl bg-[#090C12] border border-zinc-800/90 hover:border-amber-500/40 transition-colors shadow-md">
-                <div className="text-2xl sm:text-3xl font-black text-[#E58518] font-mono tracking-tight">
+              <div className="p-4 sm:p-5  rounded-xl bg-[#090C12] border border-zinc-800/90 hover:border-amber-500/40 transition-colors shadow-md">
+                <div className="text-md sm:text-3xl font-black text-[#E58518] font-mono tracking-tight">
                   75th
                 </div>
-                <div className="text-[10px] sm:text-[11px] font-mono font-bold uppercase text-zinc-400 mt-1 tracking-wider">
+                <div className="text-[8px] sm:text-[11px] font-mono font-bold uppercase text-zinc-400 mt-1 tracking-wider">
                   RANGER REGIMENT
                 </div>
               </div>
 
               {/* Metric 2 */}
               <div className="p-4 sm:p-5 rounded-xl bg-[#090C12] border border-zinc-800/90 hover:border-amber-500/40 transition-colors shadow-md">
-                <div className="text-2xl sm:text-3xl font-black text-[#E58518] font-mono tracking-tight">
-                  30+ YRS
+                <div className="text-md sm:text-3xl font-black text-[#E58518] font-mono tracking-tight">
+                  30+ YEARS
                 </div>
-                <div className="text-[10px] sm:text-[11px] font-mono font-bold uppercase text-zinc-400 mt-1 tracking-wider">
-                  VING TSUN MASTERY
+                <div className="text-[8px] sm:text-[11px] font-mono font-bold uppercase text-zinc-400 mt-1 tracking-wider">
+                  mixed martial arts and combatives- ving tsun mastery
                 </div>
               </div>
 
               {/* Metric 3 */}
               <div className="p-4 sm:p-5 rounded-xl bg-[#090C12] border border-zinc-800/90 hover:border-amber-500/40 transition-colors shadow-md">
-                <div className="text-2xl sm:text-3xl font-black text-[#E58518] font-mono tracking-tight">
+                <div className="text-md sm:text-3xl font-black text-[#E58518] font-mono tracking-tight">
                   100%
                 </div>
-                <div className="text-[10px] sm:text-[11px] font-mono font-bold uppercase text-zinc-400 mt-1 tracking-wider">
+                <div className="text-[8px] sm:text-[11px] font-mono font-bold uppercase text-zinc-400 mt-1 tracking-wider">
                   MISSION SUCCESS
                 </div>
               </div>

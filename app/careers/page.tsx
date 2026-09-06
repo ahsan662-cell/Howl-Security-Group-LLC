@@ -6,6 +6,9 @@ import { Footer } from "@/components/navigation/footer";
 import { ConfidentialConsultationPortal } from "@/features/consultation/components/confidential-consultation-portal";
 import { ConfidentialDeploymentChannels } from "@/features/contact/components/confidential-deployment-channels";
 import { DispatchModal } from "@/features/dispatch/components/dispatch-modal";
+import { CareersHero } from "@/features/contact/components/contact-hero";
+import { OperativeIntakeForm } from "@/features/contact/components/operative-intake-form";
+import { TacticalRecruitmentBlueprint } from "@/features/contact/components/tactical-recruitment-blueprint";
 
 export default function CareerPage() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -15,11 +18,13 @@ export default function CareerPage() {
       <Header onRequestCoverage={() => setModalOpen(true)} />
 
       <main className="flex-grow">
-        {/* Confidential Consultation & Dispatch Portal Component */}
-        <ConfidentialConsultationPortal />
+        {/* Dynamic Recruitment & Operative Intake Hero */}
+        <CareersHero />
+         {/* Operative Intake & Profile Submission Form */}
+        <OperativeIntakeForm />
 
-        {/* Confidential Deployment & Immediate Dispatch Channels */}
-        <ConfidentialDeploymentChannels />
+        {/* Tactical Recruitment Blueprint (OPS-01, OPS-02, OPS-03) */}
+        <TacticalRecruitmentBlueprint />
       </main>
 
       <Footer />
