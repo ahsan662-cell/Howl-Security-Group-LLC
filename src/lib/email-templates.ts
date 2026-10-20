@@ -75,7 +75,7 @@ export function generateAdminEmailTemplate(data: IntakeEmailPayload): string {
       </div>
     </div>
     <div class="footer">
-      HOWL Security Group LLC | FL Agency License # B-3800282 | 24/7 Dispatch Desk: (772) 940-4114
+      HOWL Security Group LLC | FL Agency License # B 3600262 | 24/7 Dispatch Desk: (772) 940-4114
     </div>
   </div>
 </body>
@@ -131,7 +131,7 @@ export function generateClientEmailTemplate(data: IntakeEmailPayload): string {
       </p>
     </div>
     <div class="footer">
-      HOWL Security Group LLC | FL Agency License # B-3800282 | Fort Pierce Tactical Command Center
+      HOWL Security Group LLC | FL Agency License # B 3600262 | Fort Pierce Tactical Command Center
     </div>
   </div>
 </body>
@@ -284,7 +284,7 @@ export function generateCareerApplicantEmailTemplate(data: CareerApplicationPayl
       </p>
     </div>
     <div class="footer">
-      HOWL Security Group LLC | FL Agency License # B-3800282 | Fort Pierce Operations Command
+      HOWL Security Group LLC | FL Agency License # B 3600262 | Fort Pierce Operations Command
     </div>
   </div>
 </body>
@@ -441,7 +441,7 @@ export function generateConsultationDispatchClientEmailTemplate(
       </p>
     </div>
     <div class="footer">
-      HOWL Security Group LLC | FL Agency License # B-3800282 | Fort Pierce Operations Command
+      HOWL Security Group LLC | FL Agency License # B 3600262 | Fort Pierce Operations Command
     </div>
   </div>
 </body>

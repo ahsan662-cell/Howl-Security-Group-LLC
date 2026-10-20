@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "Gerald Hazellief",
     "Executive Protection South Florida",
     "US Army Ranger Security Agency",
-    "Florida State Security License B-3800282",
+    "Florida State Security License B 3600262",
     "Armed Security Detail Class-G Florida",
     "Unarmed Guarding Class-D Florida",
     "BKFC Event Security Detail",
@@ -133,7 +133,7 @@ const globalStructuredData = {
         "jobTitle": "Founder & Principal Instructor",
         "description": "US Army 75th Ranger Regiment Veteran & Ving Tsun Kung Fu Master",
       },
-      "license": "Florida State Agency License # B-3800282",
+      "license": "Florida State Agency License # B 3600262",
       "priceRange": "$$$$",
       "openingHoursSpecification": [
         {

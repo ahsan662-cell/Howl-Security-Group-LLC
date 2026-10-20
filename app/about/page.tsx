@@ -67,7 +67,7 @@ export default function AboutPage() {
           "description":
             "US Army 75th Ranger Regiment Veteran, Executive Protection Specialist, and Ving Tsun Kung Fu Master.",
         },
-        "license": "Florida State License # B-3800282",
+        "license": "Florida State License # B 3600262",
       },
     ],
   };

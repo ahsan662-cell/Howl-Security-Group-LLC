@@ -362,7 +362,7 @@ export function TrainingCurriculum() {
 
         {/* Bottom Legal Disclaimer Strip */}
         <div className="mt-8 text-center font-mono text-[11px] text-zinc-500">
-          HOWL Security Group LLC | FL Agency License # B-3800282 | Direct Phone: (772) 940-4114
+          HOWL Security Group LLC | FL Agency License # B-3600262 | Direct Phone: (772) 940-4114
         </div>
 
       </div>
